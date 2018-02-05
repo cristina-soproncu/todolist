@@ -1,0 +1,8 @@
+DELIMITER @@
+DROP PROCEDURE nextPosition @@
+CREATE PROCEDURE todolist.nextPosition
+()
+BEGIN 
+  SELECT MAX(position)+1 FROM todolist.list_todo;
+END @@ 
+DELIMITER ; 

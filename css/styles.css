@@ -1,0 +1,55 @@
+div#main {
+    width: 100%;
+    max-width: 760px;
+    clear: both;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+h1.title {
+	width: 100%;
+    text-align: center;
+    clear: both;
+}
+.mdl-button--fab.mdl-button--colored {
+    display: block;
+}
+body {
+    color: #ff4081;
+    background-image: url("../img/bgimage.png");
+}
+.todoList li {
+    background-color: rgba(255,255,255,0.4);
+    margin-bottom: 15px;
+}
+.mdl-textfield__input.editfield {
+    float: left;
+    max-width: 300px;
+}
+.editTodo{
+    float: right;
+}
+.mdl-data-table{
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 620px;
+}
+
+.status div#main{
+    text-align: center;
+}
+
+body.status{
+    text-align: center;
+}
+
+.date{
+    width: 100%;
+    text-align: center;
+}
+
+a.status-link{
+    float: right;
+}
